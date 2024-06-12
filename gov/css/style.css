@@ -223,9 +223,13 @@ body {
     padding: 0px !important;
     height: 40px !important;
     object-fit: contain !important;
-    margin-top: 40px !important;
+    margin-top: 20px !important;
     cursor: pointer !important;
     z-index: 9 !important;
+    position: relative; /* ou absolute, conforme necessário */
+    top: -20px; /* Valor negativo para mover o elemento para cima */
+}
+
 }
 
 .container-center {
